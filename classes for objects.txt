@@ -1,0 +1,57 @@
+// Human class
+class Human {
+    String name;
+    int age;
+    String gender;
+    
+    public Human(String name, int age, String gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+    
+    // Other methods and attributes specific to humans can be added here
+}
+
+// Laptop class
+class Laptop {
+    String brand;
+    String model;
+    double screenSize;
+    
+    public Laptop(String brand, String model, double screenSize) {
+        this.brand = brand;
+        this.model = model;
+        this.screenSize = screenSize;
+    }
+    
+    // Other methods and attributes specific to laptops can be added here
+}
+
+// SportMan class
+class SportMan {
+    String name;
+    int age;
+    String sport;
+    
+    public SportMan(String name, int age, String sport) {
+        this.name = name;
+        this.age = age;
+        this.sport = sport;
+    }
+    
+    // Other methods and attributes specific to sportsmen can be added here
+}
+
+// TestCase class
+class TestCase {
+    String testName;
+    boolean passed;
+    
+    public TestCase(String testName, boolean passed) {
+        this.testName = testName;
+        this.passed = passed;
+    }
+    
+    // Other methods and attributes specific to test cases can be added here
+}
